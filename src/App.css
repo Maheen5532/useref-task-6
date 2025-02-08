@@ -1,0 +1,41 @@
+
+.main-container{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+  background: peachpuff;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 200px;
+   border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: white;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.counter {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: salmon;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: lightcoral;
+}
